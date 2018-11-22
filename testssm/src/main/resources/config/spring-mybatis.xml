@@ -57,7 +57,7 @@
 	
 	<!-- DAO接口所在包名，Spring会自动查找其下的类 -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.meng.testssm.dao" />
+        <property name="basePackage" value="com.web.testssm.dao" />
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>
     </bean>
 	<!-- 配置spring的PlatformTransactionManager，名字为默认值 -->
