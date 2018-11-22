@@ -1,4 +1,4 @@
-package com.meng.testssm.entity;
+package com.web.testssm.entity;
 
 import java.io.Serializable;
 
