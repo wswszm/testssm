@@ -16,7 +16,7 @@
     <!-- <mvc:resources mapping="/js/**" location="/js/" /> 
         <mvc:resources mapping="/css/**" location="/css/" /> -->
 
-    <context:component-scan base-package="com.meng.testssm.web"/>
+    <context:component-scan base-package="com.web.testssm.web"/>
 
 
     <!-- 添加注解驱动 -->
