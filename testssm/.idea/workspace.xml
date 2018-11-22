@@ -69,14 +69,14 @@
         <counts>
           <entry key="java" value="163" />
           <entry key="properties" value="76" />
-          <entry key="txt" value="52" />
+          <entry key="txt" value="71" />
           <entry key="xml" value="619" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="163" />
-          <entry key="PLAIN_TEXT" value="52" />
+          <entry key="PLAIN_TEXT" value="71" />
           <entry key="Properties" value="76" />
           <entry key="XML" value="619" />
         </counts>
@@ -124,8 +124,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="176" column="8" selection-start-line="176" selection-start-column="8" selection-end-line="176" selection-end-column="8" />
+            <state relative-caret-position="605">
+              <caret line="187" column="21" selection-start-line="187" selection-start-column="21" selection-end-line="187" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -358,7 +358,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542858307187" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542858396418" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/cmd/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -537,7 +537,7 @@
       <workItem from="1542699600506" duration="355000" />
       <workItem from="1542781979850" duration="75000" />
       <workItem from="1542854782473" duration="1175000" />
-      <workItem from="1542856031325" duration="1857000" />
+      <workItem from="1542856031325" duration="1937000" />
     </task>
     <task id="LOCAL-00001" summary="#INIT初始化完成">
       <created>1542609519176</created>
@@ -574,11 +574,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542857323634</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="#INIT 增加commonlang3工具类包">
+      <created>1542858340746</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1542858340746</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32219000" />
+    <option name="totallyTimeSpent" value="32299000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -673,7 +680,8 @@
     <MESSAGE value="#INIT 添加日志" />
     <MESSAGE value="#INIT 更改Mybatis生成工具" />
     <MESSAGE value="#INIT 增加拦截器" />
-    <option name="LAST_COMMIT_MESSAGE" value="#INIT 增加拦截器" />
+    <MESSAGE value="#INIT 增加commonlang3工具类包" />
+    <option name="LAST_COMMIT_MESSAGE" value="#INIT 增加commonlang3工具类包" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -878,8 +886,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="176" column="8" selection-start-line="176" selection-start-column="8" selection-end-line="176" selection-end-column="8" />
+        <state relative-caret-position="605">
+          <caret line="187" column="21" selection-start-line="187" selection-start-column="21" selection-end-line="187" selection-end-column="21" />
         </state>
       </provider>
     </entry>
