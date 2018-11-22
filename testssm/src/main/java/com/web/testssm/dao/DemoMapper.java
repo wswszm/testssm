@@ -1,6 +1,6 @@
-package com.meng.testssm.dao;
+package com.web.testssm.dao;
 
-import com.meng.testssm.entity.Demo;
+import com.web.testssm.entity.Demo;
 
 public interface DemoMapper {
     /**
