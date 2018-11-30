@@ -7,4 +7,5 @@
     <import resource="spring-redis.xml"/>
     <import resource="spring-mvc.xml"/>
     <import resource="spring-service.xml"/>
+    <import resource="spring-mongo.xml"/>
 </beans>
