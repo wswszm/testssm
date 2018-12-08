@@ -23,9 +23,7 @@ public class DemoController {
 	@RequestMapping("findList")
 	@ResponseBody
 	public Map<String, Object> findList(){
-		Map<String, Object> map = new HashMap<>();
-		map.put("demo", demoService.findList());
-		redisTemplate.opsForValue().set("222","222");
-		return map;
+		demoService.test();
+		return null;
 	}
 }
