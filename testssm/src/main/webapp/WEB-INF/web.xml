@@ -8,12 +8,16 @@
     <!-- Spring和mybatis的配置文件 -->
     <context-param>
         <param-name>contextConfigLocation</param-name>
-        <param-value>classpath*:config/spring-mybatis.xml</param-value>
+        <param-value>classpath*:config/spring-context.xml</param-value>
     </context-param>
     <context-param>
         <param-name/>
         <param-value/>
     </context-param>
+    <!-- shiro过滤器，
+		DelegatingFilterProxy代理会自动的到IOC容器找名字为shiroFilter的bean;
+		如果要修改bean的名字，可以设置targetBeanName的值，要注意的是必须与ShiroFilterFactoryBean的id值保持一致
+	 -->
 
     <!-- 编码过滤器 -->
     <filter>
@@ -40,7 +44,7 @@
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>  
         <init-param>  
             <param-name>contextConfigLocation</param-name>  
-            <param-value>classpath*:config/spring-context.xml</param-value>
+            <param-value>classpath*:config/spring-mvc.xml</param-value>
         </init-param>  
         <load-on-startup>1</load-on-startup>  
         <async-supported>true</async-supported>  
@@ -49,5 +53,13 @@
         <servlet-name>SpringMVC</servlet-name>  
         <!-- 此处可以可以配置成*.do，对应struts的后缀习惯 -->  
         <url-pattern>/</url-pattern>  
-    </servlet-mapping>  
+    </servlet-mapping>
+    <filter>
+        <filter-name>shiroFilter</filter-name>
+        <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>shiroFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
 </web-app>
