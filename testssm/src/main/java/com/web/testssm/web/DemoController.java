@@ -26,4 +26,10 @@ public class DemoController {
 		demoService.test();
 		return null;
 	}
+	@RequestMapping("getFile")
+	@ResponseBody
+	public Map<String, Object> getFile(){
+		demoService.test2();
+		return null;
+	}
 }

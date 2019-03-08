@@ -98,4 +98,27 @@
       `password` = #{password,jdbcType=VARCHAR}
     where id = #{id,jdbcType=VARCHAR}
   </update>
+
+
+  <select id="getfilePath" resultType="map">
+    select kcmc,
+    a.bjdz,
+    b.filepath bjdzfilepath,
+    a.bjdadz,
+    c.filepath dadzfilepath,
+    a.bmtdz,
+    d.filepath
+    from kw_sj a
+    LEFT JOIN sys_attachment b
+    on a.bjdz=b.id
+    LEFT JOIN sys_attachment c
+    on  a.bjdadz=c.id
+    LEFT JOIN sys_attachment d
+    on  a.bmtdz=d.id
+
+    where kcmc in
+    <foreach collection="kcmc" index="index" item="item" open="(" close=")" separator=",">
+      #{item}
+    </foreach>
+  </select>
 </mapper>

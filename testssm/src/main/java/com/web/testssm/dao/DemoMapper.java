@@ -1,6 +1,10 @@
 package com.web.testssm.dao;
 
 import com.web.testssm.entity.Demo;
+import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
+import java.util.Map;
 
 public interface DemoMapper {
     /**
@@ -50,4 +54,5 @@ public interface DemoMapper {
      * @mbg.generated
      */
     int updateByPrimaryKey(Demo record);
+    List<Map<String, Object>> getfilePath(@Param("kcmc") String[] kcmc);
 }

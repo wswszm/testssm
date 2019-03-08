@@ -1,6 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" build-on-make="true" name="testsssm">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="testsssm.war" />
-  </artifact>
-</component>
